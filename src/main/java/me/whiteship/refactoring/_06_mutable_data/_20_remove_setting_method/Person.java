@@ -6,6 +6,11 @@ public class Person {
 
     private int id;
 
+    //exclude the possibility of values being changed by assigning values through a constructor
+    public Person(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
@@ -18,7 +23,4 @@ public class Person {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 }
