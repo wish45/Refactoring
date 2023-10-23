@@ -8,6 +8,11 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * ctrl + shift + ↑ or ↓
+ * slide statements
+ * It is posiible to move code lines up and down
+ */
 public class StudyDashboard {
 
     private void printParticipants(int eventId) throws IOException {
