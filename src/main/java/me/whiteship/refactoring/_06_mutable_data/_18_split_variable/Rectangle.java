@@ -5,6 +5,8 @@ public class Rectangle {
     private double perimeter;
     private double area;
 
+    //split variable temp -> perimeter , area
+    //add final
     public void updateGeometry(double height, double width) {
         final double perimeter = 2 * (height + width);
         System.out.println("Perimeter: " + perimeter);
