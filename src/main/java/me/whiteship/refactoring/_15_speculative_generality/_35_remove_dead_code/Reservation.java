@@ -2,6 +2,9 @@ package me.whiteship.refactoring._15_speculative_generality._35_remove_dead_code
 
 import java.time.LocalDateTime;
 
+/*
+*   inlay hinsts - java - code visions - usages
+* */
 public class Reservation {
 
     private String title;
@@ -26,3 +29,4 @@ public class Reservation {
         return alarm;
     }
 }
+
